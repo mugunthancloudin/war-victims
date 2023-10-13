@@ -1,0 +1,27 @@
+.about{
+    color: goldenrod;
+    font-size: x-large;
+}
+
+.aboutcontainer_contact{
+    background-color: rgb(67, 69, 158);
+}
+.aboutcontainer_testimonial{
+    background-image: url("https://www.letsbuild.com/wp-content/uploads/2017/09/construction-site-build-construction-work-159306.jpeg");
+    width:100%;
+    background-size:cover;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+   
+}
+.number-stats-list-number{
+    color: goldenrod;
+    font-size: xx-large;
+    font-style: italic;
+}
+
+.about-description{
+    font-family: Arial, Helvetica, sans-serif ;
+    font-style: oblique;
+    font-size: medium;
+}

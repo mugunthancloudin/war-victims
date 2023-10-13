@@ -1,0 +1,35 @@
+.victimsBg{
+
+  background-image: url("../../asssets/victims/victimsBg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  
+}
+
+.victims_p{
+  color: yellow;
+  margin-top: 20%;
+}
+
+.victims_p1{
+  color: yellow;
+  margin-top: 5%;
+  text-decoration: underline;
+  margin-bottom: 20%;
+
+}
+
+.victims_h1{
+font-weight: 900;
+}
+
+.victims_h6{
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.victimSpam{
+  color: yellow;
+
+}

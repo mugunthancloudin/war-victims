@@ -1,0 +1,14 @@
+.footerContainer{
+  /* background-color:rgb(188, 252, 240);
+  color: black; */
+  background-color: black;
+  color: white  ;
+
+}
+
+.horizontal-line {
+    border: none; /* Remove the default border */
+    border-top: 2px solid white; /* Set the color and thickness of the line */
+    width: 100%; /* Set the width of the line */
+    margin: 0 auto; /* Center the line horizontally */
+}

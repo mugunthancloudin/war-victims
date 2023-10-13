@@ -1,0 +1,51 @@
+.about_title {
+    color: rgb(34, 28, 105);
+    margin-top: 5%;
+  }
+
+  .bgContainer{
+    background-color: rgb(249,246,240);
+  }
+  
+  .about_button {
+    border-radius: 25px;
+    background-color:rgb(64,183,162);
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    /* border-color: #f87158; */
+    border: 1px solid  rgb(64,183,162);
+    margin-bottom: 5%;
+    margin-top: 3%;
+    margin-left: 0%;
+    color: white;
+    font-size: 20px;
+  
+  }
+
+  .about_button:hover{
+    transform: scale(1.05) !important;
+  }
+  
+  
+  .about_content {
+    line-height: 200%;
+  }
+  
+  .aboutImg {
+    background-image: url("../../asssets//about/about.jpg");
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+  }
+  
+  .about_image img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .about_h1{
+    font-weight: bolder;
+  }
