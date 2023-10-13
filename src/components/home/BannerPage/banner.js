@@ -20,6 +20,21 @@ export default function Banner() {
                   ensure fidelity to assist and support people worldwide.{" "}
                 </p>
               </div>
+{/* 
+              <div className=" row text-center">
+              <button className="btn-53">
+                  <div className="original">DONATE</div>
+                  <div className="letters">
+                    <span>D</span>
+                    <span>O</span>
+                    <span>N</span>
+                    <span>A</span>
+                    <span>T</span>
+                    <span>E</span>
+                  </div>
+                </button>
+
+              </div> */}
               <div className="row">
                 <div className="col-lg-5">&nbsp;</div>
                 <div className="col-lg-2"><button className="btn-53">
