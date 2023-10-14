@@ -10,7 +10,7 @@ export default function Card1() {
         <div className="container pt-5 pb-5">
           <div className="row ">
             <div className="card-group">
-              <div className="col-lg-4 ps-2">
+              <div className="col-lg-4 col-md-4 mt-2 ps-2">
                 <div className="card ">
                   <img src={img01} className="card" alt="donate" />
                   <div className="card-img-overlay text-white">
@@ -27,7 +27,7 @@ export default function Card1() {
                 </div>
               </div>
 
-              <div className="col-lg-4 ps-2">
+              <div className="col-lg-4 col-md-4 mt-2 ps-2">
                 <div className="card ">
                   <img src={img02} className="card" alt="donate" />
                   <div className="card-img-overlay text-white">
@@ -45,7 +45,7 @@ export default function Card1() {
                 </div>
               </div>
 
-              <div className="col-lg-4 ps-2">
+              <div className="col-lg-4 col-md-4 mt-2 ps-2">
                 <div className="card ">
                   <img src={img03} className="card" alt="donate" />
                   <div className="card-img-overlay text-white">

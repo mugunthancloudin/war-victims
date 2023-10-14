@@ -42,13 +42,13 @@ function Footer() {
           <hr class="horizontal-line" />
           <div className="row mt-5">
             <div className="col-lg-2"><img
-                className="mt-1 ms-5"
+                className="mt-1 ms-4"
                 src={brandLogo}
                 alt="brand-logo"
                 width={100}
                 height={100}
               />
-              <h6 className="text-center mt-2 ms-5">Hands For <br></br>War victims</h6>
+              <h6 className=" mt-2 ms-5">Hands For <br></br>War victims</h6>
               </div>
             <div className="col-lg-1">&nbsp;</div>
             <div className="col-lg-1">

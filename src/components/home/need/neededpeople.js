@@ -4,7 +4,7 @@ import "./neededpeople.css";
 export default function Neededpeople() {
   return (
     <>
-      <div className="container-fluid bgContainer pb-5 ">
+      <div className="container-fluid bgContainer pt-5 pb-5 ">
         <div className="container peopleBg">
           <div className="row text-center">
             <h6 className="people_p">PLAY YOUR PART</h6>

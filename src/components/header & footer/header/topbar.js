@@ -6,7 +6,7 @@ import NavbarToggle from "react-bootstrap/esm/NavbarToggle";
 import brandLogo from "../../asssets/Header&Footer/logo.png";
 
 
-export default function Menubar() {
+export default function Topbar() {
   return (
     <>
       <Navbar className="navbar" sticky="top" expand="lg">
