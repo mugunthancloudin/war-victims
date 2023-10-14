@@ -9,20 +9,25 @@ export default function Banner() {
           <div className="row">
             <div className="col-lg-10 text-center  text-white ">
               <div className="row">
-                <h1 className="banner_h1 ">
+                {/* <h1 className="banner_h1 ">
                   CHARITY AND SPONSORSHIP{" "}
                   <spam className="bannerSpam">FUND</spam> <br></br> WE HELP WAR
                   VICTIMS
+                </h1> */}
+
+                <h1 className="banner_h1 ">
+                  Pouring Love to the War{" "}
+                  <span className="bannerSpam">Victims!!!</span>
                 </h1>
                 <p className="banner_p">
-                  Our main goal is fidelity to save people all over the world.
-                  <br></br> The organization's primary goal is to promote and
-                  ensure fidelity to assist and support people worldwide.{" "}
+                  Join us and let us together show the war victims that we are
+                  here to take care of them. Our main commitment is to save war
+                  victims all over the world.
                 </p>
               </div>
 
               <div className="bannerDonateButton">
-              <button className="btn-53">
+                <button className="btn-53">
                   <div className="original">DONATE</div>
                   <div className="letters">
                     <span>D</span>
@@ -33,7 +38,6 @@ export default function Banner() {
                     <span>E</span>
                   </div>
                 </button>
-
               </div>
               {/* <div className="row">
                 <div className="col-lg-5">&nbsp;</div>
