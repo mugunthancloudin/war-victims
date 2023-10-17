@@ -18,7 +18,7 @@ function Abouts() {
                 every person gets the support they need."
               </h6>
               <p className="about_content mt-3">
-                Welcome to (website name) a cryptocurrency-powered fundraising
+                Welcome to <span className="fw-bold">Epizóntes</span> a cryptocurrency-powered fundraising
                 platform dedicated to providing support for victims of war and
                 aiding displaced individuals in war-ravaged zones.We seek to
                 support those whose lives have been impacted by conflicts and
@@ -28,10 +28,11 @@ function Abouts() {
               </p>
 
               <p className="about_content">
-                XXX is initiated to support the war victims. Our objective is to
-                become a leading charitable platform by utilizing the advantages
-                of Blockchain technology to receive donations directly without
-                the help of middlemen and support war victims around the globe.{" "}
+              <span className="fw-bold">Epizóntes</span> is initiated to support the war victims. Our objective
+                is to become a leading charitable platform by utilizing the
+                advantages of Blockchain technology to receive donations
+                directly without the help of middlemen and support war victims
+                around the globe.{" "}
               </p>
 
               <h6 className="about_content fw-bold fst-italic mt-3">

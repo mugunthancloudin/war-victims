@@ -14,7 +14,7 @@ export default function Topbar() {
           <NavLink href="/">
             <div className="d-flex">
               <img src={brandLogo} width={40} className="navlogo" />
-              <h4 className="ms-3 mt-3 ">War-Victims</h4>
+              <h4 className="ms-3 mt-3 ">Epizóntes</h4>
             </div>
           </NavLink>
 

@@ -20,7 +20,7 @@ export default function Banner() {
                   <span className="bannerSpam"> Lives.</span>
                 </h1>
                 <p className="banner_p">
-                  Xxx is a community-run charity cryptocurrency project that
+                <span className="fw-bold">Epizóntes</span> is a community-run charity cryptocurrency project that
                   helps war victims and supports <br></br>the well-being of people in
                   need!
                 </p>
