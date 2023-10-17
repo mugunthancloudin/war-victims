@@ -3,6 +3,28 @@
     margin-bottom: 10%;
 }
 
+.card01P{
+    font-size: large;
+}
+
 .cardBg01{
     background-color: rgb(249,246,240);
+}
+
+.cardbgimg01{
+    background-image: url("../../asssets/cards/cards01/image_01.jpg");
+    width: 100%;
+    background-size: cover;
+}
+
+.cardbgimg02{
+    background-image: url("../../asssets/cards/cards01/image_02.jpg");
+    width: 100%;
+    background-size: cover;
+}
+
+.cardbgimg03{
+    background-image: url("../../asssets/cards/cards01/image_03.jpg");
+    width: 100%;
+    background-size: cover;
 }
