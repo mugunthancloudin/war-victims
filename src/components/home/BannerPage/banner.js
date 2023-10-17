@@ -14,15 +14,15 @@ export default function Banner() {
                   <spam className="bannerSpam">FUND</spam> <br></br> WE HELP WAR
                   VICTIMS
                 </h1> */}
-
-                <h1 className="banner_h1 ">
-                  Pouring Love to the War{" "}
-                  <span className="bannerSpam">Victims!!!</span>
+<h3 className="banner_h1">Join the Cause</h3>
+                <h1 className="bannerFont ">
+                 Donate to Rebuild War-Torn
+                  <span className="bannerSpam"> Lives.</span>
                 </h1>
                 <p className="banner_p">
-                  Join us and let us together show the war victims that we are
-                  here to take care of them. Our main commitment is to save war
-                  victims all over the world.
+                  Xxx is a community-run charity cryptocurrency project that
+                  helps war victims and supports <br></br>the well-being of people in
+                  need!
                 </p>
               </div>
 
