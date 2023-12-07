@@ -1,7 +1,21 @@
-import React from "react";
+import React,{useState} from "react";
 import "./banner.css";
+import Donation from "../../home/Donation/donation";
+
 
 export default function Banner() {
+
+  const [isPopupOpen, setPopupOpen] = useState(false);
+
+  const handleDonation = (event) => {
+    event.preventDefault();
+    setPopupOpen(true);
+  };
+
+  const closePopup = () => {
+    setPopupOpen(false);
+  };
+
   return (
     <>
       <div className="container-fluid  bannerBgBody">
@@ -29,7 +43,7 @@ export default function Banner() {
               <div className="bannerDonateButton">
                 <button className="btn-53">
                   <div className="original">DONATE</div>
-                  <div className="letters">
+                  <div className="letters"  onClick={handleDonation}>
                     <span>D</span>
                     <span>O</span>
                     <span>N</span>
@@ -38,6 +52,7 @@ export default function Banner() {
                     <span>E</span>
                   </div>
                 </button>
+                {isPopupOpen && <Donation isOpen={isPopupOpen} onRequestClose={closePopup} />}
               </div>
               {/* <div className="row">
                 <div className="col-lg-5">&nbsp;</div>

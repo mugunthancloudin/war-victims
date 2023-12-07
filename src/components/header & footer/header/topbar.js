@@ -1,12 +1,26 @@
-import React from "react";
+import React,{useState} from "react";
 import "./menubar.css";
 import { Container, Nav, Navbar, NavLink } from "react-bootstrap";
 import NavbarCollapse from "react-bootstrap/esm/NavbarCollapse";
 import NavbarToggle from "react-bootstrap/esm/NavbarToggle";
-import brandLogo from "../../asssets/Header&Footer/logo.png";
+import brandLogo from "../../asssets/Header&Footer/logo.png"
+import Donation from "../../home/Donation/donation";
 
 
 export default function Topbar() {
+
+  const [isPopupOpen, setPopupOpen] = useState(false);
+
+  const handleDonation = (event) => {
+    event.preventDefault();
+    setPopupOpen(true);
+  };
+
+  const closePopup = () => {
+    setPopupOpen(false);
+  };
+
+
   return (
     <>
       <Navbar className="navbar" sticky="top" expand="lg">
@@ -41,8 +55,9 @@ export default function Topbar() {
                 <div className="glow-on-hover text-white mt-2">Contact US</div>
               </NavLink>
 
-              <NavLink href="/contact">
-                <button className="navButtton ms-5">Donate</button>
+              <NavLink>
+                <button className="navButtton ms-5" onClick={handleDonation}>Donate</button>
+                {isPopupOpen && <Donation isOpen={isPopupOpen} onRequestClose={closePopup} />}
               </NavLink>
             </Nav>
           </NavbarCollapse>
